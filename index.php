@@ -1,5 +1,5 @@
 <?php
 
-setcookie('cookie2', 'value2', ['samesite' => 'None', 'secure' => true]);
+header("Set-cookie: mycookie=value; path=/; HttpOnly; SameSite=Lax");
 
 ?>
